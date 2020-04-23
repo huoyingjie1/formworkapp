@@ -1,0 +1,11 @@
+html,body{
+    font-size: 15px;
+  }
+
+  form{
+    width: 30rem;
+  }
+
+  .login-content{
+    height: 100vh;
+  }
