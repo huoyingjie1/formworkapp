@@ -37,6 +37,10 @@ export class AppComponent {
   }
 
   onSubmit(value: any){
+    if(this.myForm.invalid){
+       alert('表单无效');
+       return;
+    }
     console.log(value);
   }
 }
